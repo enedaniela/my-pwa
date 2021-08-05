@@ -3,4 +3,4 @@ async function GetHello(context, req) {
       body: 'Hello from API at ' + new Date().toLocaleTimeString()
     };
   };
-  module.exports = GetHello;
+module.exports = GetHello;
